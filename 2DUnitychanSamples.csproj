@@ -64,11 +64,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\UnityChan\2DUnitychan\Scenes\Scripts\BattleSpriteAction.cs" />
-    <Compile Include="Assets\UnityChan\2DUnitychan\Scenes\Scripts\EmoteSpriteAction.cs" />
-    <Compile Include="Assets\UnityChan\2DUnitychan\Scenes\Scripts\MoveCharacterAction.cs" />
-    <Compile Include="Assets\UnityChan\2DUnitychan\Scenes\Scripts\SpriteAction.cs" />
-    <None Include="Assets\UnityChan\2DUnitychan\Scenes\Scripts\2DUnitychanSamples.asmdef" />
+    <Compile Include="Assets\OtherFolder\UnityChan\2DUnitychan\Scenes\Scripts\BattleSpriteAction.cs" />
+    <Compile Include="Assets\OtherFolder\UnityChan\2DUnitychan\Scenes\Scripts\EmoteSpriteAction.cs" />
+    <Compile Include="Assets\OtherFolder\UnityChan\2DUnitychan\Scenes\Scripts\MoveCharacterAction.cs" />
+    <Compile Include="Assets\OtherFolder\UnityChan\2DUnitychan\Scenes\Scripts\SpriteAction.cs" />
+    <None Include="Assets\OtherFolder\UnityChan\2DUnitychan\Scenes\Scripts\2DUnitychanSamples.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

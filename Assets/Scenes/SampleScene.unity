@@ -2450,7 +2450,7 @@ GameObject:
   - component: {fileID: 1389348772}
   - component: {fileID: 1389348773}
   m_Layer: 0
-  m_Name: Unitychan_Walk_12
+  m_Name: Unitychan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

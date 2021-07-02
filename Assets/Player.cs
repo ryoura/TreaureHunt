@@ -8,13 +8,15 @@ public class Player : MonoBehaviour
 
     Rigidbody2D rd;
 
-    Animation anima;
+    Animator anima;
+    float Walk;
+    Vector2 vector2;
 
     // Start is called before the first frame update
     void Start()
     {
         rd = GetComponent<Rigidbody2D>();
-        anima = GetComponent<Animation>();
+        anima = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -26,11 +28,13 @@ public class Player : MonoBehaviour
         if (horizontalKey > 0)
         {
             rd.velocity = new Vector2(speed, 0);
-            anima.
+            anima.SetFloat("Speed",10f);
         }
         else if (horizontalKey < 0)
         {
             rd.velocity = new Vector2(-speed, 0);
+            anima.SetFloat("Speed", 0f);
+
         }
         else if (verticalKey > 0)
         {
@@ -43,6 +47,7 @@ public class Player : MonoBehaviour
         else
         {
             rd.velocity = Vector2.zero;
+            anima.SetFloat("Speed", 0f);
         }
     }
 }
