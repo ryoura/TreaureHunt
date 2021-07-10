@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>4.9.1.0</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>4.10.3.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>2019.4.26f1</UnityVersion>
@@ -74,7 +74,9 @@
     <Compile Include="Assets\OtherFolder\HyperLuminal\2D Fantasy Forest Tileset\Scripts\Tile.cs" />
     <Compile Include="Assets\OtherFolder\HyperLuminal\2D Fantasy Forest Tileset\Scripts\TimedAnimations.cs" />
     <Compile Include="Assets\OtherFolder\HyperLuminal\2D Fantasy Forest Tileset\Scripts\Trigger.cs" />
-    <Compile Include="Assets\Player.cs" />
+    <Compile Include="Assets\Script\CharacterDate.cs" />
+    <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\Player.cs" />
     <None Include="Assets\OtherFolder\mapchip2_0724\mapchip2\ウディタ２用です.txt" />
     <None Include="Assets\OtherFolder\Aekashics Librarium - Megapack III\Terms of use.txt" />
     <Reference Include="UnityEngine">
