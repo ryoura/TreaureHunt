@@ -64,20 +64,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\OtherFolder\HyperLuminal\2D Fantasy Forest Tileset\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\OtherFolder\HyperLuminal\2D Fantasy Forest Tileset\Scripts\CollectableBounce.cs" />
-    <Compile Include="Assets\OtherFolder\HyperLuminal\2D Fantasy Forest Tileset\Scripts\Door.cs" />
-    <Compile Include="Assets\OtherFolder\HyperLuminal\2D Fantasy Forest Tileset\Scripts\FadeScript.cs" />
-    <Compile Include="Assets\OtherFolder\HyperLuminal\2D Fantasy Forest Tileset\Scripts\MenuButtons.cs" />
-    <Compile Include="Assets\OtherFolder\HyperLuminal\2D Fantasy Forest Tileset\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\OtherFolder\HyperLuminal\2D Fantasy Forest Tileset\Scripts\SpikeTrap.cs" />
-    <Compile Include="Assets\OtherFolder\HyperLuminal\2D Fantasy Forest Tileset\Scripts\Tile.cs" />
-    <Compile Include="Assets\OtherFolder\HyperLuminal\2D Fantasy Forest Tileset\Scripts\TimedAnimations.cs" />
-    <Compile Include="Assets\OtherFolder\HyperLuminal\2D Fantasy Forest Tileset\Scripts\Trigger.cs" />
     <Compile Include="Assets\Script\CharacterDate.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\Menu.cs" />
     <Compile Include="Assets\Script\Player.cs" />
-    <None Include="Assets\OtherFolder\mapchip2_0724\mapchip2\ウディタ２用です.txt" />
     <None Include="Assets\OtherFolder\Aekashics Librarium - Megapack III\Terms of use.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
